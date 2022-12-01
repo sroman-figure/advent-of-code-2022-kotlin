@@ -13,7 +13,7 @@ fun getPath() =
 
 fun readInput(name: String) =
     File(
-        getPath() + File.separator + "/src/com/samuelaroman/adventofcode/day" + name.get(name.lastIndex),
+        getPath() + File.separator + "/src/main/kotlin/com/samuelaroman/adventofcode/day" + name.get(name.lastIndex),
         "$name.txt"
     )
         .readLines()
